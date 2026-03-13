@@ -1,4 +1,4 @@
-## :link: :1st_place_medal: ASK2026 : 자원탐사 효율화를 위한 시추 코어 광물 종 자동 분류
+## :link: :1st_place_medal: ASK2026 : Automated Mineral Species Classification of Drill Cores for Efficient Resource Exploration
 
 주제 : 자원탐사 효율화를 위한 시추 코어 광물 종 자동 분류
 
