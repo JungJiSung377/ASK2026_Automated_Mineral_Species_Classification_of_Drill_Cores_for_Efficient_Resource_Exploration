@@ -19,7 +19,7 @@
 
 ---
 
-## 📊 02. 데이터셋 (Dataset)
+## 📌 02. 데이터셋 (Dataset)
 [cite_start]국제 해양 시추 프로그램(IODP) Expedition 346 프로젝트의 동해 Site U1424 지점 데이터를 활용하였습니다[cite: 17].
 
 | 데이터 범주 | 측정 장비 | 주요 특징량 (Features) | 해상도 |
@@ -30,7 +30,7 @@
 
 ---
 
-## ⚙️ 03. 데이터 전처리 (Preprocessing)
+## 📌 03. 데이터 전처리 (Preprocessing)
 [cite_start]서로 다른 센서에서 측정된 데이터의 공간 해상도 편차를 해결하기 위해 다음과 같은 과정을 거쳤습니다[cite: 20].
 
 1.  [cite_start]**공간적 위치 통합:** 모든 수치 지표를 2mm 기준 격자로 설정하여 선형보간법(Linear Interpolation) 적용[cite: 24].
@@ -39,7 +39,7 @@
 
 ---
 
-## 🔬 04. 물리적 특성 예측 모델 (ResNet-MLP)
+## 📌 04. 물리적 특성 예측 모델 (ResNet-MLP)
 [cite_start]1단계 모델은 시각적 특징과 지화학 성분을 통합하여 물리적 특성을 예측합니다[cite: 29].
 
 * [cite_start]**구조:** ResNet-18(이미지 인코더) + MLP(XRF 데이터 처리)[cite: 30].
@@ -49,7 +49,7 @@ $$y = MLP(x_{xrf}) + w \cdot ResNet(x_{img})$$
 
 ---
 
-## 🚀 05. 광물 종 분류 모델 (XGBoost)
+## 📌 05. 광물 종 분류 모델 (XGBoost)
 [cite_start]2단계에서는 1단계에서 예측된 물성값과 원천 데이터를 결합하여 최종 분류를 수행합니다[cite: 28, 34].
 
 * **모델:** XGBoost (Extreme Gradient Boosting).
@@ -61,7 +61,7 @@ $$y = MLP(x_{xrf}) + w \cdot ResNet(x_{img})$$
 
 ---
 
-## ✅ 06. 결론 (Conclusion)
+## 📝 06. 결론 (Conclusion)
 [cite_start]실험 결과, 제안된 통합 모델은 단일 데이터를 활용한 기존 방식보다 우수한 성능을 보였습니다[cite: 52, 63].
 
 * **물성 예측 성능:** P-wave $R^2$ **0.85**, Mag. Suscep. [cite_start]$R^2$ **0.79** 기록[cite: 41, 46].
@@ -69,13 +69,13 @@ $$y = MLP(x_{xrf}) + w \cdot ResNet(x_{img})$$
 
 ---
 
-## 🔮 07. 향후 연구 (Future Work)
+## 🔍 07. 향후 연구 (Future Work)
 * [cite_start]**범용성 확장:** 특정 탐사 지역 외의 다양한 지질 데이터 확충을 통한 모델 일반화[cite: 65].
 * [cite_start]**데이터 보강:** 샘플 수가 부족한 희귀 광종에 대한 데이터 증강 연구 수행[cite: 65].
 
 ---
 
-## 📚 08. 참고문헌 (References)
+## 📄 08. 참고문헌 (References)
 * [1] IEA, *The Role of Critical Minerals in Clean Energy Transitions*, 2021.
 * [2] M. Damaschke, et al., "Unlocking national treasures: the core scanning approach," *Geol. Soc. Lond. Spec. Publ.*, 2023.
 * [3] F. Alzubaidi, et al., "Automated lithology classification from drill core images using CNNs," *J. Pet. Sci. Eng.*, 2021.
