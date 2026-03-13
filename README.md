@@ -77,14 +77,21 @@ $$y = MLP(x_{xrf}) + w \cdot ResNet(x_{img})$$
 
 ## 📚 08. 참고문헌 (References)
 * [1] IEA, *The Role of Critical Minerals in Clean Energy Transitions*, 2021.
-* [2] He, K., et al., "Deep Residual Learning for Image Recognition," *CVPR*, 2016.
-* [3] Chen, T., & Guestrin, C., "XGBoost: A Scalable Tree Boosting System," *KDD*, 2016.
-* [4] Lundberg, S., & Lee, S., "A Unified Approach to Interpreting Model Predictions," *NIPS*, 2017.
+* [2] M. Damaschke, et al., "Unlocking national treasures: the core scanning approach," *Geol. Soc. Lond. Spec. Publ.*, 2023.
+* [3] F. Alzubaidi, et al., "Automated lithology classification from drill core images using CNNs," *J. Pet. Sci. Eng.*, 2021.
+* [4] C. Günther, et al., "Machine learning for drill core image analysis: A review," *Ore Geol. Rev.*, 2025.
+* [5] I. C. Contreras Acosta, et al., "A Machine Learning Framework for Drill-Core Mineral Mapping," *IEEE JSTARS*, 2019.
+* [6] P. Blum, *Physical properties handbook: a guide to the shipboard measurement of physical properties*, ODP Tech. [cite_start]Note, 1997.
+* [7] R. Tada, et al., "Site U1424," *Proc. [cite_start]IODP*, 2015.
+* [8] I. W. Croudace & R. G. Rothwell (Eds.), *Micro-XRF Studies of Sediment Cores*, Springer, 2015.
+* [9] K. He, et al., "Deep Residual Learning for Image Recognition," *CVPR*, 2016.
+* [10] T. Chen & C. Guestrin, "XGBoost: A Scalable Tree Boosting System," *KDD*, 2016.
+* [11] J. L. Davalos-Monteiro, et al., "AI-Based Prediction of Rock Mechanical Properties," *IPTC*, 2026.
+* [12] S. Lundberg & S. Lee, "A Unified Approach to Interpreting Model Predictions," *NIPS*, 2017.
 
 ---
 
 ## 🧑‍💻 Citation
-본 연구가 도움이 되셨다면 아래의 BibTeX을 사용하여 인용해 주세요.
 
 ```bibtex
 @article{jung2026automated,
